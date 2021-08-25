@@ -18,3 +18,5 @@ The problem is a multiclass classification problem and using the notion of [grap
 2. Uncomment the  cell with command (!unzip "cora.zip") to unzip the file of the cora data set (the code is run in google colab) the zip file was first imported there  (after unziping the data set directory appear to be **cora/cora** this can change of you are working in another enviroment, just need to paste the directory in which the unzip folder is locsted).
 
 3. The function *Gmodel* takes as input the data file directory, the number of folds *k* the learning rate *lr* and the  epoch size *epochs*
+4. The model takes approximately 4mins:14sec to run and perform predictions
+5. Working on colab, you just need to upload the zip file associated to this repository and put in the directory of the unzip file in the function called *Gmodel*
