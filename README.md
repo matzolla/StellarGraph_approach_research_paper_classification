@@ -25,4 +25,10 @@ The problem is a multiclass classification problem and using the notion of [grap
 Graph convolutional neural network (GCN) work directly with Graph data in our case the cora dataset, in which each data point is represented as a node
 and there exist communications with one another. For each node, we get the feature information from all its neighbors together with the feature of itself. Finally, we feed these average values into a neural network to perform predictions. Similarly with stellargraph , we create a generator to convert the graph structure and node features into a format that can easily be fitted into the a deeplearning model for training or prediction.
 
-The generator just encodes the information required to produce the model inputs. A function called *generator.flow* taking as input  a set of nodes and their true labels produces an object that can be used to train the model, on those nodes and labels that were specified.Using the *K-fold* cross validation function of sklearn, we create a set of training and testing set. We then perform the mean of the set of predicted output from each fold to minimize our error. The function *LabelBinarizer* transform the labels into an a tensor (adjacency tensor) describing the relation between set of nodes (1 if there's a relation and 0 if there isn't) 
+The generator just encodes the information required to produce the model inputs. A function called *generator.flow* taking as input  a set of nodes and their true labels produces an object that can be used to train the model, on those nodes and labels that were specified.Using the *K-fold* cross validation function of sklearn, we create a set of training and testing set. We then perform the mean of the set of predicted output from each fold to minimize our error. The output are in the form of probabilities (using softmax function),so we perform an inverse transformation to obtain the original labels.
+
+The metric used is the *accuracy_score* 
+
+#### NB
+1. The function *LabelBinarizer* transform the labels into an a tensor (adjacency tensor) describing the relation between set of nodes (1 if there's a relation and 0 if there isn't)
+2.  Scroll down the bottom of the notebook to see the results of the model performance
