@@ -1,9 +1,13 @@
 # StellarGraph_approach_research_paper_classification
+Author: **Tchangmena A Nken Allassan**
+
+Date published : *August 25, 2021*
+
 ### About:
 
 This note book provide an approach to classify subject of scientific papers. Initially, I taught of a simple machine learning to implement, but with the idea of **network link** in the task proposal, I directed the ideas to **graph machine learning**. The structure of the data is in such a way that it is composed of numerous nodes linked together (5429 links), with each scientific paper in the dataset represented by a 0/1 valued word vector.
 
-The problem is a multiclass classification problem and using the notion of [graph convolutional neural network](https://www.topbots.com/graph-convolutional-networks/),more precisely a stellargraph  we have achieved the task with an accuracy score of approximately $95.716\%$
+The problem is a multiclass classification problem and using the notion of [graph convolutional neural network](https://www.topbots.com/graph-convolutional-networks/),more precisely a stellargraph  we have achieved the task with an accuracy score of approximately 95.716%
 
 
 
