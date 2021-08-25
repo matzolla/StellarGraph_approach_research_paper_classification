@@ -22,4 +22,5 @@ The problem is a multiclass classification problem and using the notion of [grap
 5. Working on colab, you just need to upload the zip file associated to this repository and put in the directory of the unzip file in the function called *Gmodel*
 
 #### How it works
-
+Graph convolutional neural network (GCN) work directly with Graph data in our case the cora dataset, in which each data point is represented as a node
+and there exist communications with one another. For each node, we get the feature information from all its neighbors together with the feature of itself. Finally, we feed these average values into a neural network to perform predictions. Similarly with stellargraph , we create a generator (
