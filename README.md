@@ -31,6 +31,9 @@ The generator just encodes the information required to produce the model inputs.
 
 The metric used is the *accuracy_score* 
 
+#### major update
+`Revisited the GCN architecture used and accuracy slightly improved see notebook`
+
 #### NB
 1. The function *LabelBinarizer* transform the labels into an a tensor (adjacency tensor) describing the relation between set of nodes (1 if there's a relation and 0 if there isn't)
 2.  Scroll down the bottom of the notebook to see the results of the model performance
