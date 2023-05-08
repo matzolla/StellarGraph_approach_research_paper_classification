@@ -7,7 +7,7 @@ Date Updated : `May 08th, 2023`
 
 ### About:
 
-This note book provide an approach to classify subject of scientific papers. Initially, I taught of a simple machine learning to implement, but with the idea of **network link** in the task proposal, I directed the ideas to **graph machine learning**. The structure of the data is in such a way that it is composed of numerous nodes linked together (5429 links), with each scientific paper in the dataset represented by a 0/1 valued word vector.
+This note book provide an approach to classify subject of scientific papers. Initially, we taught of a simple machine learning to implement, but with the idea of **network link** in the task proposal, we directed the ideas to **graph machine learning**. The structure of the data is in such a way that it is composed of numerous nodes linked together (5429 links), with each scientific paper in the dataset represented by a 0/1 valued word vector.
 
 The problem is a multiclass classification problem and using the notion of [graph convolutional neural network](https://www.topbots.com/graph-convolutional-networks/) (`GCN`),more precisely a stellargraph  we have achieved the task with an accuracy score of approximately 95.76% with *100 epochs* and 97.34% with *200 epochs*
 
