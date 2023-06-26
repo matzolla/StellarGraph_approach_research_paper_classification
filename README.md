@@ -16,8 +16,8 @@ The problem is a multiclass classification problem and using the notion of [grap
 #### dependencies
 
 1. Uncomment the 4-th line of the next cell inorder to install stellargraph
-  ``` python
-(#% pip install -q stellargraph)
+  ```python
+ pip install -q stellargraph
    ```
 
 4. Uncomment the  cell with command (!unzip "cora.zip") to unzip the file of the cora data set (the code is run in google colab) the zip file was first imported there  (after unziping the data set directory appear to be **cora/cora** this can change if you are working in another enviroment, just need to paste the directory in which the unzip folder is located).
