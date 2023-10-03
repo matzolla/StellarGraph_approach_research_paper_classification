@@ -1,4 +1,4 @@
-# StellarGraph_approach_research_paper_classification
+# StellarGraph approach research paper classification
 Author: **Tchangmena A Nken Allassan**
 
 Date published : `August 21th, 2021`
