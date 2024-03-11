@@ -47,7 +47,7 @@ import stellargraph as sg
 from sklearn.model_selection import KFold ,train_test_split #for cross validation
 from sklearn.preprocessing import LabelBinarizer #for preprocessing
 
-###for modeling ########
+###for modeling #######
 import tensorflow as tf
 from stellargraph.mapper import FullBatchNodeGenerator
 from stellargraph.layer import GCN
